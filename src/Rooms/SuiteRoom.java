@@ -8,6 +8,8 @@ public class SuiteRoom extends Room {
 
     @Override
     public String getDescription() {
-       return "Suite Rooms.";
+       String description = "Suite Rooms.";
+        System.out.println(description);
+        return description;
     }
 }
