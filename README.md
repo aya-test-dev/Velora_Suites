@@ -49,3 +49,11 @@ Or import the project into IntelliJ IDEA and run the `Main` class.
 ## Contributing
 
 Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+## Code Style
+
+This project adheres to the coding conventions defined in the [.editorconfig](.editorconfig) and the Checkstyle configuration defined in [checkstyle.xml](checkstyle.xml). To validate formatting and style, run:
+
+```bash
+java -jar checkstyle-8.45-all.jar -c checkstyle.xml src/
+```

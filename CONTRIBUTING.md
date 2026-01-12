@@ -21,7 +21,11 @@ Thank you for your interest in contributing to Velora Suites!
 
 ## Code Style
 
-This project follows the coding conventions defined in the [.editorconfig](.editorconfig) file. Please ensure your changes are formatted accordingly before submitting.
+This project adheres to the coding conventions defined in the [.editorconfig](.editorconfig) and the Checkstyle configuration defined in [checkstyle.xml](checkstyle.xml). To validate formatting and style, run:
+
+```bash
+java -jar checkstyle-8.45-all.jar -c checkstyle.xml src/
+```
 
 ## Reporting Issues
 
